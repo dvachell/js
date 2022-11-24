@@ -1,0 +1,29 @@
+<html>
+ <head></head>
+<body>
+    <h1>Zadanir 8</h1>
+<textarea rows=30 cols=200>
+    <html>
+        <head>
+            <title>Zadanie 8.</title>
+        </head>
+        <body>
+        <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+        var D1_bab=parseFloat(prompt("date1=",""));
+        var D2_bab=parseFloat(prompt("date2=",""));
+        var second_count;
+        second_count = (D2_bab - D1_bab) * 24 * 60 * 60;
+        if (second_count < 0) {
+            second_count = -second_count;
+        }
+        document.write("Date1 = "+D1_bab+" <br>");
+        document.write("Date2 = "+D2_bab+"<br>");
+        document.write("Ile second mędzy "+D1_bab+" a "+D2_bab+" = "+second_count+" s<br>");
+        </script>
+        </div>
+        </body>
+        </html>        
+</textarea>
+</body>
+</html>

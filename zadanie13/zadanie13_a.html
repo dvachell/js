@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+            let n = prompt("c =", "");
+            let m = prompt("b =", "");
+            let c = parseFloat(n);
+            let b = parseFloat(m);
+            var a = parseFloat(Math.sqrt(c * c - b * b));
+            var obw =(a + b + c);
+            let pole = ((a * b) / 2);
+            let sin_Beta = (b / c);
+            let beta = (Math.sin(sin_Beta) * 180 / 3.14);
+            let alfa = (90 - beta);
+
+            document.write(" a =" + a.toFixed(2) + "<br>" + " obw =" + obw.toFixed(2) + "<br>" + " pole= " + pole.toFixed(2) + "<br>" + " beta = " + beta.toFixed(2) + "<br>" + " alfa =" + alfa.toFixed(2));
+        </script>
+    </div>
+
+</body>
+
+</html>
